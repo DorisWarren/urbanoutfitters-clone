@@ -1,0 +1,22 @@
+body{
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.menu a:last-of-type{
+  color: red;
+}
+.fa-gratipay{
+  color: mix(red, magenta);
+}
+.free-shipping a {
+  color: gray;
+}
+
+.learn-more{
+  text-align: center;
+  color: white;
+  a{
+    color: white;
+  }
+}

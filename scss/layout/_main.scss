@@ -1,0 +1,184 @@
+
+.learn-more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: mix(salmon, hotpink);
+  a{
+    padding-left: 5%;
+  }
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 15px;
+  border-bottom: 1px solid darkgray;
+  .fitters-s{
+    display: none;
+  }
+  a {
+    margin: 0px 10px;
+    text-decoration: none;
+    color: $darkgray;
+  }
+
+}
+.main-page{
+  width: 70%;
+  padding: 0 15%;
+  margin: 0;
+
+  .free-shipping{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px 0px;
+    div{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30%;
+      height: 75px;
+      margin: 0px 5px;
+      background-color: $lightBackground;
+
+      p{
+        padding: 0 3%;
+      }
+    }
+    div:hover{
+      opacity: .50;
+    }
+  }
+  .off-jeans{
+    img{
+      width: 100%;
+      height: auto;
+      margin-bottom: 15px;
+    }
+  }
+  .catagory-blocks{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div{
+      width: 48%;
+      height: auto;
+      margin-bottom: 25px;
+
+    }
+    .dress-shop{
+      img{
+        width: 100%;
+        height:auto;
+      }
+    }
+    .shop-by-look{
+      img{
+        width: 100%;
+        height:auto;
+      }
+    }
+    .furniture{
+      img{
+        width: 100%;
+        height:auto;
+      }
+    }
+    .plushie{
+      img{
+        width: 100%;
+        height:auto;
+      }
+    }
+  }
+  .navigation-blocks{
+    display: flex;
+    justify-content: space-between;
+    div{
+      width: 32%;
+      height: auto;
+    }
+    img{
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+h4{
+  margin: 20px 0px;
+  text-align: center;
+}
+.new-to-sale {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+  div{
+    width: 15%;
+    height: auto;
+  }
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+.fa-bars {
+  display: none;
+}
+
+@media screen and (max-width:1024px){
+  .learn-more{
+    flex-direction: column;
+  }
+  .menu {
+    display: none;
+  }
+  .search-bar input{
+    display: none;
+  }
+  .search-bar a{
+    display: none;
+  }
+  .fa-bars {
+    display: block;
+  }
+  .learn-more a{
+    margin: 0;
+  }
+}
+
+@media screen and (max-width:768px){
+  .main-page {
+    width: 90%;
+    padding: 0% 5%;
+  }
+}
+@media screen and (max-width:425px){
+  .fitters-l{
+    display: none;
+  }
+  nav .fitters-s{
+    display: block;
+  }
+  .main-page .free-shipping{
+    flex-direction: column;
+    div{
+      width: 100%;
+      margin: 5px 0px;
+    }
+  }
+  .main-page .catagory-blocks div{
+    width: 100%;
+  }
+  .main-page .navigation-blocks{
+    flex-wrap: wrap;
+    div{
+      width: 100%;
+    }
+  }
+}

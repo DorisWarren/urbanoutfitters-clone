@@ -1,0 +1,249 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.menu a:last-of-type {
+  color: red;
+}
+
+.fa-gratipay {
+  color: #ff0080;
+}
+
+.free-shipping a {
+  color: gray;
+}
+
+.learn-more {
+  text-align: center;
+  color: white;
+}
+.learn-more a {
+  color: white;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  background-color: #fd7593;
+}
+.learn-more a {
+  padding-left: 5%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 15px;
+  border-bottom: 1px solid darkgray;
+}
+nav .fitters-s {
+  display: none;
+}
+nav a {
+  margin: 0px 10px;
+  text-decoration: none;
+  color: #545454;
+}
+
+.main-page {
+  width: 70%;
+  padding: 0 15%;
+  margin: 0;
+}
+.main-page .free-shipping {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 30px 0px;
+}
+.main-page .free-shipping div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 75px;
+  margin: 0px 5px;
+  background-color: #f2f2f2;
+}
+.main-page .free-shipping div p {
+  padding: 0 3%;
+}
+.main-page .free-shipping div:hover {
+  opacity: 0.5;
+}
+.main-page .off-jeans img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+.main-page .catagory-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-page .catagory-blocks div {
+  width: 48%;
+  height: auto;
+  margin-bottom: 25px;
+}
+.main-page .catagory-blocks .dress-shop img {
+  width: 100%;
+  height: auto;
+}
+.main-page .catagory-blocks .shop-by-look img {
+  width: 100%;
+  height: auto;
+}
+.main-page .catagory-blocks .furniture img {
+  width: 100%;
+  height: auto;
+}
+.main-page .catagory-blocks .plushie img {
+  width: 100%;
+  height: auto;
+}
+.main-page .navigation-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.main-page .navigation-blocks div {
+  width: 32%;
+  height: auto;
+}
+.main-page .navigation-blocks img {
+  width: 100%;
+  height: auto;
+}
+
+h4 {
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.new-to-sale {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+  border-top: 1px solid darkgray;
+  border-bottom: 1px solid darkgray;
+}
+.new-to-sale div {
+  width: 15%;
+  height: auto;
+}
+.new-to-sale img {
+  width: 100%;
+  height: auto;
+}
+
+.fa-bars {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .learn-more {
+    flex-direction: column;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .search-bar input {
+    display: none;
+  }
+
+  .search-bar a {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  .learn-more a {
+    margin: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main-page {
+    width: 90%;
+    padding: 0% 5%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .fitters-l {
+    display: none;
+  }
+
+  nav .fitters-s {
+    display: block;
+  }
+
+  .main-page .free-shipping {
+    flex-direction: column;
+  }
+  .main-page .free-shipping div {
+    width: 100%;
+    margin: 5px 0px;
+  }
+
+  .main-page .catagory-blocks div {
+    width: 100%;
+  }
+
+  .main-page .navigation-blocks {
+    flex-wrap: wrap;
+  }
+  .main-page .navigation-blocks div {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=output.css.map */
